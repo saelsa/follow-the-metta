@@ -9,7 +9,7 @@
 		left: 20
 	};
 
-	$: textHeight = height / 5 - 20;
+	$: textHeight = height / 5.6;
 </script>
 
 <section id="section1" class="w-full h-full" bind:clientHeight={height} bind:clientWidth={width}>
@@ -19,7 +19,7 @@
 				class="text-[9rem]"
 				x={margin.left}
 				y={margin.top + textHeight + i * textHeight}
-				fill="white"
+				fill="{i > 3 ? "#ea92ea" : "white"}"
 				textLength={width - margin.left - margin.right}
 				lengthAdjust="spacingAndGlyphs"
 			>

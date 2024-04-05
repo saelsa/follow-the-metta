@@ -43,11 +43,11 @@
 			class="text-[50px]"
 			x={margin.left}
 			y={margin.top + 240}
-			fill="white"
+			fill="#620262"
 			textLength={width - margin.left - margin.right}
 			lengthAdjust="spacingAndGlyphs"
 		>
-			19 - 22
+			17 - 22
 		</text>
         <text
         class="text-[30px]"
