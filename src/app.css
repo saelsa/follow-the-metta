@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    /* default font */
+    font-family: "Reddit Mono", monospace;
+  }
+
+
+  
+img {
+    /* For responsive images */
+    height: auto;
+    max-width: 100%;
+    
+    /* images should not be highlighted */
+    user-select: none;
+  }
+
+  button {
+    color: inherit; /* By default, buttons don't inherit the font colour, this is a useful default to override */
+  }
+  
