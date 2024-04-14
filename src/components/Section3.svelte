@@ -27,7 +27,7 @@
 			textLength={width - margin.left - margin.right}
 			lengthAdjust="spacingAndGlyphs"
 		>
-			26
+			10
 		</text>
 		<text
 			class="text-[130px]"
@@ -37,7 +37,7 @@
 			textLength={width - margin.left - margin.right}
 			lengthAdjust="spacingAndGlyphs"
 		>
-			04
+			05
 		</text>
 		<text
 			class="text-[50px]"
